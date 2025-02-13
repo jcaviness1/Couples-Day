@@ -61,9 +61,7 @@ body {
     animation: float 3s ease-in-out infinite alternate;
 }
 
-<<<<<<< HEAD
-=======
-.heartballoons {
+heartballoons {
     position: absolute;
     z-index: 3;
     width: 200px;
@@ -73,8 +71,6 @@ body {
     height: auto;
     animation: float 3s ease-in-out infinite alternate;
 }
->>>>>>> 89e85ddb993e36d919e17d10de080d14b8a007e6
-
 @keyframes float {
     from {
         transform: translateY(0);
