@@ -33,9 +33,20 @@ body {
 .deer {
     position: absolute;
     z-index: 3;
-    width:200px;
+    width: 200px;
     top: 60%;
     left: 20%;
+    transform: translate(100%, 100%);
+    height: auto;
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+.heartballoons {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    top: 20%;
+    left: 70%;
     transform: translate(100%, 100%);
     height: auto;
     animation: float 3s ease-in-out infinite alternate;
