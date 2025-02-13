@@ -12,6 +12,26 @@ body {
     align-items: center;
     position: relative;
 }
+.flowersground {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    bottom: 5%;
+    left: 85%;
+    transform: translateX(-50%);
+    height: auto;
+    animation: sway 4s ease-in-out infinite alternate;
+}
+
+@keyframes sway {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(5deg);
+    }
+}
+
 
 .cityscape {
     position: relative;
@@ -40,6 +60,7 @@ body {
     height: auto;
     animation: float 3s ease-in-out infinite alternate;
 }
+
 
 @keyframes float {
     from {
