@@ -3,18 +3,31 @@ body {
     overflow: hidden;
     background-image: url('flowertree.jpg');
     background-size: cover;
-    /* Makes the image cover the entire viewport */
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    /* Ensures the body fills the whole screen */
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .cityscape {
     position: relative;
     width: 100vw;
     height: 100vh;
+}
+
+.dancers {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50px, -70%);
+    height: auto;
+    animation: float 2s ease-in-out infinite alternate;
 }
 
 
