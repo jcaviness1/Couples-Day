@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('flowertree.jpg');
+    background-size: cover;
+    /* Makes the image cover the entire viewport */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* Ensures the body fills the whole screen */
+    width: 100vw;
+}
+
+.cityscape {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+@keyframes float {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}
