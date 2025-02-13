@@ -30,7 +30,16 @@ body {
     animation: float 2s ease-in-out infinite alternate;
 }
 
-
+.deer {
+    position: absolute;
+    z-index: 3;
+    width:200px;
+    top: 60%;
+    left: 20%;
+    transform: translate(100%, 100%);
+    height: auto;
+    animation: float 3s ease-in-out infinite alternate;
+}
 
 @keyframes float {
     from {
