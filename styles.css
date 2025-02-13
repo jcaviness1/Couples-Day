@@ -53,7 +53,7 @@ body {
 .deer {
     position: absolute;
     z-index: 3;
-    width:200px;
+    width: 200px;
     top: 60%;
     left: 20%;
     transform: translate(100%, 100%);
@@ -61,6 +61,19 @@ body {
     animation: float 3s ease-in-out infinite alternate;
 }
 
+<<<<<<< HEAD
+=======
+.heartballoons {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    top: 20%;
+    left: 70%;
+    transform: translate(100%, 100%);
+    height: auto;
+    animation: float 3s ease-in-out infinite alternate;
+}
+>>>>>>> 89e85ddb993e36d919e17d10de080d14b8a007e6
 
 @keyframes float {
     from {
